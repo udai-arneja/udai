@@ -6978,7 +6978,7 @@ textarea.form-control-lg {
 }
 
 .mb-1 {
-  text-shadow: 0 0 1px #030e74;
+  /* text-shadow: 0 0 1px #030e74; */
   margin-bottom: 0.25rem !important;
 }
 
@@ -6996,12 +6996,12 @@ textarea.form-control-lg {
 
 .mb-5-2 {
   margin-top: 2.75rem;
-  text-shadow: 0 0 1px #037db6;
+  /* text-shadow: 0 0 1px #037db6; */
   margin-bottom: 1rem !important;
 }
 
 .mb-5 {
-  text-shadow: 0 0 1px #037db6;
+  /* text-shadow: 0 0 1px #037db6; */
   margin-bottom: 3rem !important;
 }
 
