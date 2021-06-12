@@ -608,6 +608,60 @@ progress {
   margin-left: auto;
 }
 
+.topLeftName{
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.topLeftName a{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+@media (min-width: 800px) {
+  .topLeftName a{
+    font-size: 2.3rem;
+    font-weight: 1000;
+  }
+}
+
+/* @media (min-width: 576px) {
+  .topLeftName{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+  }
+} */
+
+/* @media (min-width: 768px) {
+  .topLeftName{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  .h1{
+    font-size: 20rem;
+  }
+}
+@media (min-width: 992px) {
+  .topLeftName{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .topLeftName{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .topLeftName{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+} */
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -6973,6 +7027,10 @@ textarea.form-control-lg {
   margin-right: auto !important;
 }
 
+.headerColour{
+  color: lightgray;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -11039,7 +11097,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%), url("../assets/img/four.jpeg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%), url("../assets/img/six.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
