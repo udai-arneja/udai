@@ -11137,6 +11137,10 @@ footer.footer .social-link:hover {
   color: #fff;
   margin: auto 2rem 2rem;
 }
+.portfolio-item .caption .caption-content2 {
+  color: #000;
+  margin: auto 2rem 2rem;
+}
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -11179,6 +11183,20 @@ footer.footer .social-link:hover {
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
+}
+
+.text{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-text{
+  padding: 1rem;
+  padding-bottom: 0.25rem;
+  color:rgba(0, 0, 0);
+  text-align: justify;
 }
 
 .service-icon {
