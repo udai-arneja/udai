@@ -23,55 +23,85 @@
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <!-- <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li> -->
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#education">Education</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="sidebar-nav-item"><a href="#skills">Skills</a></li>
+                <li class="sidebar-nav-item"><a href="index.html#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="index.html#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="index.html#education">Education</a></li>
+                <li class="sidebar-nav-item"><a href="portfolio.html">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="index.html#skills">Skills</a></li>
                 <li class="sidebar-nav-item"><a href="assets/UdaiArnejaCV.pdf" download="Udai Arneja CV">Download CV</a></li>
-            </ul>
         </nav>
-        <!-- Header-->
-        <!-- <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1 headerColour">Udai Arneja</h1>
-                <h3 class="mb-5-2 headerColour"><em>Electronics and Computer Engineering Student</em></h3>
-                <h3 class="mb-5 headerColour"><em>Cycling - Photography</em></h3>
-                <a class="scroll-symbol"></a>
-            </div>
-        </header> -->
         <!-- Portfolio-->
-        <section class="content-section bg-light" id="portfolio">
+        <section class="content-section" id="portfolio">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-secondary mb-0">Portfolio</h3>
                     <h2 class="mb-5">A Collection Of My Projects</h2>
                 </div>
                 <div class="row gx-0">
+                    <hr size="8" width="90%"  id="royalsocietyapplication">
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Royal Society Showcase Website Application</div>
-                                    <p class="mb-0">COVID-19 has meant that Imperial's Annual Exbition at the Royal Society is moving online!</p>
+                                    <div class="h2">The Royal Society Showcase Web Application</div>
+                                    
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/three.jpeg" alt="..." />
+                            <img class="img-fluid" src="assets/img/robots.png" alt="..." />
                         </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div style="padding:2rem;padding-top: 0rem;">
+                            <p class="edu-text" style="padding-bottom: 0rem;">The Royal Society, the world's oldest scientific academy, has held an annual Science 
+                                Summer Exhibition since 1778. This year, due to the COVID-19 pandemic, this was made a virtual event
+                                within which Imperial's HARMS lab showcased their research into minimally invasive Surgery augmented 
+                                by robots.</p>
+                            <p class="edu-text" style="padding-top: 0.2rem;">I was priviliged to be part of the team that developed the web-application that enabled
+                                visitors to remotely use head and eye movements to control the KUKA robots within our labs at Imperial!
+                            </p>
+                            <p class="edu-text" style="padding-top: 0.2rem;"> I lead the front-end development of the application 
+                                (predominantly in JavsaScript) where both MediaPipe’s Facemesh and Brown University’s WebGazer APIs
+                                were used to interpret the head-movement and gaze-location of users. These interpretations were calculated using
+                                data from the user's built-in camera and lightweight machine-learning algorithms, then sent via HTTPS protocols
+                                to the Lab PCs at Imperial to be translated into robot movement.
+                            </p>
+                        </div>
+                    </div>
+                    <hr size="8" width="90%"  id="businessfellowship">
+                    <div class="col-lg-6">
+                        <div style="padding:2rem;padding-top: 0rem;">
+                            <p class="edu-text" style="padding-bottom: 0rem;">During the Entrepreneurship Module as part of the management
+                                aspect in the third year of my degree, I led a team to develop a business plan for execution of a unique idea.
+                            </p>
+                            <p class="edu-text" style="padding-top: 0.2rem;">Our idea, Tutti, was a seamless orchestra management application aimed
+                                at amateur orchestras. This provided thorough support to orchestras and ensembles of all sizes in areas ranging from
+                                player attendance to full scale concert arrangment.
+                            </p>
+                            <p class="edu-text" style="padding-top: 0.2rem;"> We personally reached out to over 100 orchestras across London, interviewing
+                                a diverse range of group, to really understand what they felt was missing and how we could add value. Additionally, we conducted
+                                several focus groups to develop an appropriate subscription based platform which would within budget - particularly for
+                                smaller ensembles. The subscription's enabled music groups to select features that would benefit them, for example, small
+                                recreational groups would not require large concert management as compared to larger groups.
+                            </p>
+                            <p class="edu-text" style="padding-top: 0.2rem;"> After successful execution of a business plan and pitch video, we
+                                were awarded the runners up prize in the funding round - achieving a £500 investment to begin developing our idea.
+                                Additionally, we acheived the Engineers in Business Fellowship with Imperial College Business School.
+                            </p>
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Engineers In Business Fellowship - Runner Up</div>
-                                    <p class="mb-0">Concieved an idea, developed a business plan and were rewarded with £500 to implement our Musician-Connecting Application </p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="assets/img/five.jpeg" alt="..." />
                         </a>
                     </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
+                    <hr size="8" width="90%">
+                    <!-- <div class="col-lg-6" id="issie">
+                        <a class="portfolio-item">
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">ISSIE Development</div>
@@ -82,6 +112,24 @@
                         </a>
                     </div>
                     <div class="col-lg-6">
+                        <div style="padding:2rem;padding-top: 0rem;">
+                            <p class="edu-text" style="padding-bottom: 0rem;">The Royal Society, the world's oldest scientific academy, has held an annual Science 
+                                Summer Exhibition since 1778. This year, due to the COVID-19 pandemic, this was made a virtual event
+                                within which Imperial's HARMS lab showcased their research into minimally invasive Surgery augmented 
+                                by robots.</p>
+                            <p class="edu-text" style="padding-top: 0.2rem;">I was priviliged to be part of the team that developed the web-application that enabled
+                                visitors to remotely use head and eye movements to control the KUKA robots within our labs at Imperial!
+                            </p>
+                            <p class="edu-text" style="padding-top: 0.2rem;"> I lead the front-end development of the application 
+                                (predominantly in JavsaScript) where both MediaPipe’s Facemesh and Brown University’s WebGazer APIs
+                                were used to interpret the head-movement and gaze-location of users. These interpretations were calculated using
+                                data from the user's built-in camera and lightweight machine-learning algorithms, then sent via HTTPS protocols
+                                to the Lab PCs at Imperial to be translated into robot movement.
+                            </p>
+                        </div>
+                    </div> -->
+                    <!-- <hr size="8" width="90%">
+                    <div class="col-lg-6" id="deeplearning">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -92,6 +140,23 @@
                             <img class="img-fluid" src="assets/img/DL.png" style="width: 100%;" alt="..." />
                         </a>
                     </div>
+                    <div class="col-lg-6">
+                        <div style="padding:2rem;padding-top: 0rem;">
+                            <p class="edu-text" style="padding-bottom: 0rem;">The Royal Society, the world's oldest scientific academy, has held an annual Science 
+                                Summer Exhibition since 1778. This year, due to the COVID-19 pandemic, this was made a virtual event
+                                within which Imperial's HARMS lab showcased their research into minimally invasive Surgery augmented 
+                                by robots.</p>
+                            <p class="edu-text" style="padding-top: 0.2rem;">I was priviliged to be part of the team that developed the web-application that enabled
+                                visitors to remotely use head and eye movements to control the KUKA robots within our labs at Imperial!
+                            </p>
+                            <p class="edu-text" style="padding-top: 0.2rem;"> I lead the front-end development of the application 
+                                (predominantly in JavsaScript) where both MediaPipe’s Facemesh and Brown University’s WebGazer APIs
+                                were used to interpret the head-movement and gaze-location of users. These interpretations were calculated using
+                                data from the user's built-in camera and lightweight machine-learning algorithms, then sent via HTTPS protocols
+                                to the Lab PCs at Imperial to be translated into robot movement.
+                            </p>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -111,7 +176,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <a href="experience.html" style="color: white; text-decoration: none;">
+                        <a href="index.html#experience" style="color: white; text-decoration: none;">
+                            <!-- experience.html -->
                             <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-briefcase"></i></span>
                             <h4><strong>Experience</strong></h4>
                             <p class="text-faded mb-0">Some of the incredible places I've worked.</p>
