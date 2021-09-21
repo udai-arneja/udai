@@ -14,15 +14,18 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/added.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <!-- Signature -->
+        <a class="signature rounded nav-left" href="index.html" style="float: left">udaiarneja</a>
+        <!-- Navigation -->
+        <a class="menu-toggle rounded nav-right" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <!-- <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li> -->
                 <li class="sidebar-nav-item"><a href="index.html#page-top">Home</a></li>
                 <li class="sidebar-nav-item"><a href="index.html#about">About</a></li>
                 <li class="sidebar-nav-item"><a href="index.html#education">Education</a></li>
@@ -32,12 +35,13 @@
             </ul>
         </nav>
         <!-- Header-->
-        <header class="masthead d-flex align-items-center">
+        <header class="masthead d-flex align-items-center" id="test">
             <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1 headerColour">Udai Arneja</h1>
-                <h3 class="mb-5-2 headerColour"><em>Electronics and Computer Engineering Student</em></h3>
-                <h3 class="mb-5 headerColour"><em>Cycling - Photography</em></h3>
-                <!-- <a class="btn btn-primary btn-xl" href="#about">Find Out More</a> -->
+                <div class > </div>
+                <h1 class="mb-1 headerColour" style="font-family: Varela Round;">Welcome, I'm Udai!</h1>
+                <!-- <h3 class="mb-5-2 headerColour"><em>Penultimate Electrical and Electronics Engineering Student</em></h3>
+                <h3 class="mb-5-2 headerColour"><em>Lead of Imperial's Google Student Devloper Club</em></h3>
+                <h3 class="mb-5 headerColour"><em>Avid Cyclist & Photographer</em></h3> -->
                 <a class="scroll-symbol"></a>
             </div>
         </header>
@@ -48,7 +52,7 @@
                     <div class="col-lg-10">
                         <h2>About</h2>
                         <p class="lead mb-5">
-                            Hello! I'm Udai, a 20 year old Undergraduate Student at Imperial College London, taking on the beauty and
+                            Hello! I'm Udai, a 21-year-old Undergraduate Student at Imperial College London, taking on the beauty and
                             hardships of Electrical and Electronics Engineering. I enjoy developing software, anywhere from Web-Development to Machine
                             Learning and have had the privilege to work on some incredible projects with some amazing people.
                         </p>
@@ -61,17 +65,6 @@
                 </div>
             </div>
         </section>
-        <!-- Callout-->
-        <!-- <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-            </div>
-        </section> -->
         <!-- Education-->
         <section class="content-section" id="education">
             <div class="container px-4 px-lg-5">
@@ -261,16 +254,6 @@
                             <img class="img-fluid" src="assets/img/CISCO.jpg" alt="..." />
                         </a>
                     </div>
-                    <!-- <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Photography</div>
-                                    <p class="mb-0">"A photograph is usually looked at - seldom looked into." - Ansel Adams</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/two.jpeg" alt="..." />
-                        </a> -->
                     </div>
                 </div>
             </div>
@@ -330,12 +313,6 @@
 
         </section>
         </a>
-        <!-- Map-->
-        <!-- <div class="map" id="contact">
-            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-            <br />
-            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
-        </div> -->
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
@@ -361,3 +338,27 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+<script>
+    const images=["one","five","six"];
+    var index = 0;
+    backgroundPicture = document.querySelector(".masthead");
+</script>
+<script>
+
+    slideshow()
+
+    function slideshow(){
+        if(index >= images.length-1){
+            index = 0;
+        }
+        else index++;
+        console.log(index);
+        currentName = "url('assets/img/" + images[index] + ".jpeg')";
+        console.log(currentName);
+        backgroundPicture.style.background = currentName;
+        backgroundPicture.style.backgroundSize = "cover";
+        setTimeout(slideshow, 2000)
+    };
+
+</script>
